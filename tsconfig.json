@@ -6,6 +6,6 @@
     "sourceMap": true,
     "outDir": "dist"
   },
-  "ts-node": {"esm": true},
+  "ts-node": { "esm": true },
   "include": ["src/**/*"]
 }

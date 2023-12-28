@@ -5,11 +5,17 @@ import Queue from "./Queue.js";
 import Stack from "./Stack.js";
 import TwoCrystalBalls from "./TwoCrystalBall.js";
 
-const stack = new Queue<number>();
+const stack = new Stack<number>();
 
-stack.enqueue(1);
-stack.enqueue(2);
-console.log(stack.dequeue());
-console.log(stack.dequeue());
-console.log(stack.dequeue());
-console.log(stack.dequeue());
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.push(4);
+
+console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack);
