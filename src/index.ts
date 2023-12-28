@@ -1,5 +1,15 @@
 import BinarySearch from "./BinarySearch.js";
+import BubbleSort from "./BubbleSort.js";
 import LinearSearch from "./LinearSearch.js";
+import Queue from "./Queue.js";
+import Stack from "./Stack.js";
+import TwoCrystalBalls from "./TwoCrystalBall.js";
 
-const lists = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(BinarySearch(lists, 10));
+const stack = new Queue<number>();
+
+stack.enqueue(1);
+stack.enqueue(2);
+console.log(stack.dequeue());
+console.log(stack.dequeue());
+console.log(stack.dequeue());
+console.log(stack.dequeue());
